@@ -3,7 +3,6 @@ package com.simplecalculator;
 import java.awt.Button;
 import java.awt.FlowLayout;
 import java.awt.Frame;
-import java.awt.GridBagLayout;
 import java.awt.GridLayout;
 import java.awt.Panel;
 import java.awt.TextField;
