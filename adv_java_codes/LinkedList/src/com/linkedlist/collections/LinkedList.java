@@ -1,11 +1,11 @@
 package com.linkedlist.collections;
 
-public class LinkedList {
+public class LinkedList<E> {
 
-	private Node first;
+	private Node<E> first;
 
-	public void add(int data) {
-		Node newNode = new Node();
+	public void add(E data) {
+		Node<E> newNode = new Node<E>();
 		newNode.setData(data);
 		newNode.setNext(null);
 

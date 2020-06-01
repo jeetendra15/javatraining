@@ -7,7 +7,8 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		LinkedList linkedList = new LinkedList();
+		LinkedList<Integer> linkedList = new LinkedList<Integer>();
+		// LinkedList<String> linkedList = new LinkedList<String>();
 
 		linkedList.add(10);
 		linkedList.add(20);
@@ -17,10 +18,10 @@ public class Main {
 
 		linkedList.show();
 
-		linkedList.get(3);
+		linkedList.get(10);
 
 		linkedList.size();
-		
+
 		linkedList.remove(3);
 
 		linkedList.show();

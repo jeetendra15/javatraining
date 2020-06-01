@@ -1,16 +1,16 @@
 package com.linkedlist.collections;
 
-public class Node {
+public class Node<E> {
 
-	private int data;
+	private E data;
 	private Node next;
 	private Node previous;
 
-	public int getData() {
+	public E getData() {
 		return data;
 	}
 
-	public void setData(int data) {
+	public void setData(E data) {
 		this.data = data;
 	}
 
