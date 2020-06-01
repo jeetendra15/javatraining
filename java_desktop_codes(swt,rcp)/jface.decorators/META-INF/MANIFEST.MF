@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Decorators
+Bundle-SymbolicName: jface.decorators
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: jface.decorators
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.swt;bundle-version="3.114.0",
+ org.eclipse.jface;bundle-version="3.19.0",
+ org.eclipse.jface.text;bundle-version="3.16.200",
+ org.eclipse.core.runtime;bundle-version="3.17.100"
+Bundle-ClassPath: .,
+ swing2swt.jar

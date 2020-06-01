@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Firstprogram
+Bundle-SymbolicName: rcp.firstprogram
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: rcp.firstprogram
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.swt;bundle-version="3.114.0"
+Bundle-ClassPath: .,
+ swing2swt.jar
