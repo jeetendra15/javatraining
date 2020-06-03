@@ -41,15 +41,15 @@ public class BinaryTree {
 	public void traversePreOrder(Node node) {
 		if (node != null) {
 			System.out.print(" " + node.value);
-			traverseInOrder(node.left);
-			traverseInOrder(node.right);
+			traversePreOrder(node.left);
+			traversePreOrder(node.right);
 		}
 	}
 
 	public void traversePostOrder(Node node) {
 		if (node != null) {
-			traverseInOrder(node.left);
-			traverseInOrder(node.right);
+			traversePostOrder(node.left);
+			traversePostOrder(node.right);
 			System.out.print(" " + node.value);
 		}
 	}
